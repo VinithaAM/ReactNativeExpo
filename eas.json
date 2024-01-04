@@ -1,0 +1,22 @@
+{
+  "build": {
+    "production": {
+      "node": "16.13.0",
+      "env": {
+        "API_URL": "https://historydatacorrection.azurewebsites.net/api"
+      }
+    },
+    "preview": {
+      "extends": "production",
+      "distribution": "internal",
+      "env": {
+        "API_URL": "https://historydatacorrection.azurewebsites.net/api"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    }
+
+  }
+ 
+}

@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "ReactNativeApp",
+    "slug": "ReactNativeApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/react-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Splashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "reactnative.ios",
+      "splash": {
+        "image": "./assets/Card.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/react-icon.png",
+        "backgroundColor": "#ffffff",
+        "splash": {
+          "image": "./assets/Card.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      },
+      "package": "reactnative.andriod"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ecab1a8f-24c7-484e-9d5b-6d679fdbd3ab"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ecab1a8f-24c7-484e-9d5b-6d679fdbd3ab"
+    }
+  }
+}
